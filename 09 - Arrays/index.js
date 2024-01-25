@@ -16,14 +16,14 @@
 //     }
 // ]
 
-
+//Percorrendo um Array
 // const numeros = [1, 2, 3, 4, 5, 6];
-// const pessoas = ["Joao", "Caio", "Flavio", "Fabio"];
 // console.log(numeros[0]);
 // console.log(numeros[5]);
 // console.log(numeros[3] + numeros[4]);
 
-// //percorrendo um array
+//Percorrendo um array
+// const pessoas = ["Joao", "Caio", "Flavio", "Fabio"];
 // for (let i = 0; i<pessoas.length; i++)
 // {
 //     console.log(pessoas[i])
