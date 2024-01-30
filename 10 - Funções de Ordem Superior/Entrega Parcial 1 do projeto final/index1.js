@@ -7,7 +7,7 @@ function adicionarCarro() {
     let valor = prompt("Digite o valor do carro:");
     let ano = prompt("Digite o ano do carro:");
 
-    // Criar um objeto carro
+    //Criar um objeto carro
     let carro = {
         marca: marca,
         modelo: modelo,
