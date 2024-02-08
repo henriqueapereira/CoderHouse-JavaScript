@@ -1,0 +1,81 @@
+body {
+    background-color: #9b9b9b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin: 10px;
+}
+
+nav li :hover {
+    color: #ffffff;
+}
+
+main h2 {
+    text-align:center;
+}
+
+.carros {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+main li:hover{
+    background-color: #ffffff;
+    transition: 1s;    
+    transform: scale(1.1);
+}
+
+
+.carros li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 25px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.carros h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.carro-descricao {
+    font-size: 18px;  
+}
+  
+.carro-preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+  
+footer {
+    text-align: center;  
+}

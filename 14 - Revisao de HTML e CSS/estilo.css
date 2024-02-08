@@ -1,0 +1,62 @@
+:root {
+    --color-text: #f4f4f4;
+}
+
+body {
+    background-color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text);
+}
+
+header {
+    font-size: 28px;
+}
+
+main {
+    height: 100vh;    
+    /*aplicando conceito flex box
+    display: flex;
+    justify-content: center;
+    */
+}
+
+p {
+    font-size: 14px;
+}
+
+#quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+@media (max-width: 390px) {
+    #quadrado {
+     width: 339px;
+    }
+
+    ul{
+        flex-direction: column;
+    }
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+input [type = 'text'] {
+    width: 500px;
+    height: 30px;
+    background-color: #c3c1c1;
+    color: #fff;
+    border-radius: 6px;
+
+}
